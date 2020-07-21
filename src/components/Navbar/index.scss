@@ -1,0 +1,47 @@
+.navbar-header {
+  background-image: url("https://jooinn.com/images/man-using-laptop-on-table-against-white-background.jpg");
+  background-size: cover;
+  height: 800px;
+
+  .navbar-content {
+    display: flex;
+    justify-content: space-around;
+
+    .menu {
+      padding: 10px 0;
+      background: transparent;
+      border-bottom: none;
+
+      .ant-menu-item {
+        border-bottom: none;
+        color: white;
+      }
+
+      .ant-menu-item:hover {
+        border-bottom: none;
+      }
+    }
+
+    h1 {
+      padding: 10px 0;
+      color: white;
+    }
+  }
+
+  .navbar-title {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+
+    h2 {
+      color: white;
+    }
+
+    h1 {
+      color: white;
+      font-size: 45px;
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+}
