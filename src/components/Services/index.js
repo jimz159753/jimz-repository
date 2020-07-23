@@ -7,7 +7,7 @@ export default class Services extends Component {
         return (
             <div className='services-content'>
                 <Row>
-                    <Col span={12}>
+                    <Col span={8}>
                         <div className='services-title'>
                             <h1>SITIOS WEB RESPONSIVOS</h1>
                             <p>In consequat enim Lorem mollit consequat magna labore ut. Nulla duis occaecat elit reprehenderit.</p>
@@ -17,8 +17,8 @@ export default class Services extends Component {
                             <p>In consequat enim Lorem mollit consequat magna labore ut. Nulla duis occaecat elit reprehenderit.</p>
                         </div>
                     </Col>
-                    <Col span={12}>
-                        <img src='https://media.istockphoto.com/photos/man-using-laptop-with-blank-screen-at-table-in-the-office-picture-id868873268' width='500px'/>
+                    <Col span={16}>
+                        <img src={require('../../static/images/respnsive-site.png')} width='1024px' height='682px'/>
                     </Col>
                 </Row>
             </div>

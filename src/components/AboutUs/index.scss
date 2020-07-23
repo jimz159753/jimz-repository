@@ -1,14 +1,21 @@
 .aboutus-content {
-    margin: 50px 0;
+  background-image: url("../../static/images/banner-nosotros.png");
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
 
-    .aboutus-title {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+  .aboutus-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20%;
 
-        p {
-            width: 80%;
-            margin: 10px auto;
-        }
+    p,
+    h1 {
+      color: white;
+      width: 80%;
+      margin: 10px auto;
     }
+  }
 }

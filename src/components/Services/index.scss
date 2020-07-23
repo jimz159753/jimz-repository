@@ -1,10 +1,17 @@
 .services-content {
-    border-bottom: 3px solid green;
-    padding-bottom: 50px;
+  border-bottom: 3px solid green;
+  background-image: url("../../static/images/bannner-caracteristicas.jpg");
+  background-size: 1387px;
+  background-repeat: no-repeat;
 
-    .services-title {
-        width: 50%;
-        margin: 0 auto;
-        text-align: justify;
+  .services-title {
+    width: 50%;
+    text-align: justify;
+    margin: 30%;
+
+    h1,
+    p {
+        color: white;
     }
+  }
 }

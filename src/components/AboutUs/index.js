@@ -7,9 +7,7 @@ export default class AboutUs extends Component {
         return (
             <div className='aboutus-content'>
                 <Row>
-                    <Col span={12}>
-                        <img src='https://www.muycomputerpro.com/wp-content/uploads/2019/11/Laptop3.jpg' width='500px'/>
-                    </Col>
+                    <Col span={12} />
                     <Col span={12}>
                         <div className='aboutus-title'>
                             <h1>NOSOTROS</h1>
