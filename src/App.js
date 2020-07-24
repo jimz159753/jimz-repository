@@ -6,7 +6,7 @@ import Services from './components/Services'
 import Contact from './components/Contact'
 import { Layout } from 'antd';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
-import './App.css';
+import './App.scss';
 
 const { Header, Footer, Sider, Content } = Layout;
 

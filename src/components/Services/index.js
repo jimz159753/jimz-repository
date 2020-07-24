@@ -7,7 +7,8 @@ export default class Services extends Component {
         return (
             <div className='services-content'>
                 <Row>
-                    <Col span={8}>
+                    <Col xs={24} sm={24} md={24} lg={24} xl={8}>
+                        <img src={require('../../static/images/bannner-caracteristicas.jpg')} className='background' />
                         <div className='services-title'>
                             <h1>SITIOS WEB RESPONSIVOS</h1>
                             <p>In consequat enim Lorem mollit consequat magna labore ut. Nulla duis occaecat elit reprehenderit.</p>
@@ -16,12 +17,14 @@ export default class Services extends Component {
                             <h1>E-COMMERCE</h1>
                             <p>In consequat enim Lorem mollit consequat magna labore ut. Nulla duis occaecat elit reprehenderit.</p>
                         </div>
+
                     </Col>
-                    <Col span={16}>
-                        <img src={require('../../static/images/respnsive-site.png')} width='1024px' height='682px'/>
+                    <Col xs={24} sm={24} md={24} lg={24} xl={16}>
+                        <img src={require('../../static/images/respnsive-site.png')} width='100%' height='100%' />
                     </Col>
                 </Row>
             </div>
         )
     }
 }
+

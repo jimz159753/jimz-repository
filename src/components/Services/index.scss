@@ -1,11 +1,16 @@
 .services-content {
   border-bottom: 3px solid green;
-  background-image: url("../../static/images/bannner-caracteristicas.jpg");
-  background-size: 1387px;
-  background-repeat: no-repeat;
+
+  .background {
+    height: 100%;
+  }
+
 
   .services-title {
-    width: 50%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 75%;
     text-align: justify;
     margin: 30%;
 
